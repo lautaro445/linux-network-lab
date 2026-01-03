@@ -1,0 +1,14 @@
+$TTL 604800
+@   IN  SOA server.lab.local. admin.lab.local. (
+        2025123101 ; Serial
+        604800
+        86400
+        2419200
+        604800 )
+
+; Servidor DNS
+@       IN  NS      server.lab.local.
+
+; Registros PTR
+2       IN  PTR     server.lab.local.
+10      IN  PTR     client.lab.local.
